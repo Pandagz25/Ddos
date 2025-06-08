@@ -7,3 +7,6 @@ pkg install git
 git clone https://github.com/Pandagz25/Ddos.git
 cd Ddos
 python i.py
+
+USERNAME : X
+PASSWORD : EXE
