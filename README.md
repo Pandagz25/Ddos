@@ -1,3 +1,5 @@
+# cara pakai
+
 pkg update && pkg upgrade
 pkg install python
 pip install colorama requests dnspython python-whois
