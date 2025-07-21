@@ -44,16 +44,6 @@ dnspython</code></pre>
   <button onclick="copyText('reqs')">📋 Salin Isi</button>
 </div>Lalu jalankan:
 
-<div>
-  <pre><code id="installreqs">pip install -r requirements.txt</code></pre>
-  <button onclick="copyText('installreqs')">📋 Salin Perintah</button>
-</div>📚 Penjelasan:
-Modul	Fungsi
-colorama	Memberi warna terminal
-requests	Kirim HTTP request ke target
-python-whois	Ambil info WHOIS domain
-dnspython	Ambil DNS Record
-
 ---
 🛠 Instalasi & Menjalankan
 <div>
