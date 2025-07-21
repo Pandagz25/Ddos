@@ -6,10 +6,10 @@ EXE Tools adalah sebuah simulasi framework buatan lokal Indonesia yang ditujukan
 
 ---
 📦 Fitur Utama
-
 1. Simulasi Serangan DDoS (Web Flood Request)
 Menampilkan cara kerja flood request berbasis HTTP dengan visualisasi RPS (Requests per Second). Untuk pembelajaran saja.
-3. Scanner Website 🔍
+
+2. Scanner Website 🔍
 Mendeteksi:
 DNS Record
 Informasi WHOIS
@@ -17,30 +17,61 @@ Server & Header Response
 Deteksi CMS umum: WordPress, Joomla, Drupal
 Panel Admin
 Subdomain umum
-4. Animasi Loading Terminal
+3. Animasi Loading Terminal
 Matrix Rain
 Proses pemasangan tool (progress bar dinamis)
-5. Login Sistem dengan 3 percobaan akses.
-6. Menu Interaktif dengan tampilan terminal khas EXE.
+4. Login Sistem dengan 3 percobaan akses.
+5. Menu Interaktif dengan tampilan terminal khas EXE.
+
+---
+🔐 Username dan Password
+Username	Password
+X	EXE
+
+---
+✅ Yang Harus Diinstall
+💡 Langsung install dengan:
+<div>
+  <pre><code id="install">pip install colorama requests python-whois dnspython</code></pre>
+  <button onclick="copyText('install')">📋 Salin Perintah</button>
+</div>🧾 Atau buat requirements.txt:
+
+<div>
+  <pre><code id="reqs">colorama
+requests
+python-whois
+dnspython</code></pre>
+  <button onclick="copyText('reqs')">📋 Salin Isi</button>
+</div>Lalu jalankan:
+
+<div>
+  <pre><code id="installreqs">pip install -r requirements.txt</code></pre>
+  <button onclick="copyText('installreqs')">📋 Salin Perintah</button>
+</div>📚 Penjelasan:
+Modul	Fungsi
+colorama	Memberi warna terminal
+requests	Kirim HTTP request ke target
+python-whois	Ambil info WHOIS domain
+dnspython	Ambil DNS Record
 
 ---
 🛠 Instalasi & Menjalankan
-pip install -r requirements.txt
+<div>
+  <pre><code id="run">
+git clone https://github.com/namakamu/exe-tools.git
+cd exe-tools
 python main.py
-> Requirements: colorama, requests, whois, dnspython
-
-Contoh penggunaan:
-Masuk dengan:
-Username: X
-Password: EXE
-Pilih menu: Informasi Website / Serangan Simulasi / Tentang Tools
+  </code></pre>
+  <button onclick="copyText('run')">📋 Salin Perintah</button>
+</div>
 
 ---
-📁 Struktur
-📁 EXE-TOOLS
-├── i.py           # Skrip utama
-├── requirements.txt  # Dependensi
-└── README.md         # Dokumentasi (file ini)
+🧪 Penggunaan
+Masukkan username & password saat login
+Pilih menu:
+Info EXE
+Simulasi DDoS (educational only)
+Cek Info Website
 
 ---
 🤖 Author
@@ -62,4 +93,12 @@ Tools ini hanya untuk edukasi, simulasi, dan pembelajaran. Jangan digunakan pada
 ║ ███████╗██╔╝ ██╗███████╗  ███████╗██╔╝ ██╗ ║
 ║ ╚══════╝╚═╝  ╚═╝╚══════╝  ╚══════╝╚═╝  ╚═╝ ║
 ╚══════════════════════════════════════════════╝
-Selamat belajar & eksplorasi keamanan dunia maya! 💻
+
+---
+<script>
+function copyText(id) {
+  const el = document.getElementById(id);
+  navigator.clipboard.writeText(el.textContent);
+  alert("✅ Teks berhasil disalin!");
+}
+</script>Selamat belajar & eksplorasi keamanan dunia maya! 💻
