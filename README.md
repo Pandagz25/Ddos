@@ -46,8 +46,8 @@ dnspython</code></pre>
 🛠 Instalasi & Menjalankan
 <div>
   <pre><code id="run">
-git clone https://github.com/namakamu/exe-tools.git
-cd exe-tools
+git clone https://github.com/Pandagz25/Ddos.git
+cd Ddos
 python main.py
   </code></pre>
   <button onclick="copyText('run')">📋 Salin Perintah</button>
