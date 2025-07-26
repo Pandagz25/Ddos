@@ -48,7 +48,7 @@ dnspython</code></pre>
   <pre><code id="run">
 git clone https://github.com/Pandagz25/Ddos.git
 cd Ddos
-python main.py
+python i.py
   </code></pre>
   <button onclick="copyText('run')">📋 Salin Perintah</button>
 </div>
