@@ -24,10 +24,8 @@ Proses pemasangan tool (progress bar dinamis)
 5. Menu Interaktif dengan tampilan terminal khas EXE.
 
 ---
-🔐 Username dan Password
-Username	Password
-X	EXE
-
+🔐 Username X 
+Password EXE
 ---
 ✅ Yang Harus Diinstall
 💡 Langsung install dengan:
